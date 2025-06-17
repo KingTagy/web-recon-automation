@@ -41,7 +41,15 @@ git clone https://github.com/KingTagy/web-recon-automation.git
 cd web-recon-automation
 chmod +x recon.sh
 ```
-3. Run the Script
+3. Edit Code PATH To Your Wordlist
+Before running the script, update the path to your wordlist file:
+```bash
+DOMAIN="$1"
+WORDLIST="/path/to/your/wordlist.txt" <================= Change this to your actual wordlist path
+OUTPUT_DIR="/path/to/save/report/${DOMAIN}"
+USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36"
+```
+4. Run the Script
 ```bash
 
 ./recon.sh <Target.com>
