@@ -6,7 +6,7 @@
 
 DOMAIN="$1"
 WORDLIST="$PATH/to/your/wordliast"
-OUTPUT_DIR="$PATH/to/save/report/${DOMAIN}"
+OUTPUT_DIR="$HOME/report/${DOMAIN}"
 USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36"
 XSS_PAYLOAD='"><script>alert(1337)</script>'
 
