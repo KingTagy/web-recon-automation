@@ -33,3 +33,12 @@ go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install github.com/ffuf/ffuf@latest
 go install github.com/hahwul/dalfox/v2@latest
 sudo apt install jq curl -y
+
+
+2. Download & Setup
+Clone the repo and make the script executable:
+
+git clone https://github.com/KingTagy/web-recon-automation.git
+cd web-recon-automation
+chmod +x recon.sh
+
