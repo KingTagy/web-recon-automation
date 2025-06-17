@@ -33,13 +33,15 @@ go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install github.com/ffuf/ffuf@latest
 go install github.com/hahwul/dalfox/v2@latest
 sudo apt install jq curl -y
-
-```bash
+```
 2. Download & Setup:
+```bash
+
 git clone https://github.com/KingTagy/web-recon-automation.git
 cd web-recon-automation
 chmod +x recon.sh
-
-```bash
+```
 3. Run the Script
-./recon.sh shein.co.uk
+```bash
+
+./recon.sh <Target.com>
