@@ -43,7 +43,4 @@ cd web-recon-automation
 chmod +x recon.sh
 
 3. Run the Script
-bash
-Copy
-Edit
 ./recon.sh shein.co.uk
